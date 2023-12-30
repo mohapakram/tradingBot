@@ -1,0 +1,1337 @@
+{
+  "signals": [
+    {
+      "id": "a82d8cc1-1db3-49bb-9e1d-cd2f732cddab",
+      "coinName": "xlmusdt",
+      "orderType": "Long",
+      "leverage": "20x",
+      "entryPriceStart": "0.1192",
+      "entryPriceEnd": "0.1193",
+      "takeProfits": [
+        [
+          "1",
+          "0.1216"
+        ],
+        [
+          "2",
+          "0.1228"
+        ],
+        [
+          "3",
+          "0.1234"
+        ],
+        [
+          "4",
+          "0.1246"
+        ]
+      ],
+      "stopLoss": "0.1180"
+    },
+    {
+      "id": "d1d20ddb-eb7f-4ef4-9dd8-ee6c7078dbb4",
+      "coinName": "neousdt",
+      "orderType": "Long",
+      "leverage": "20x",
+      "entryPriceStart": "11.00",
+      "entryPriceEnd": "11.01",
+      "takeProfits": [
+        [
+          "1",
+          "11.22"
+        ],
+        [
+          "2",
+          "11.33"
+        ],
+        [
+          "3",
+          "11.38"
+        ],
+        [
+          "4",
+          "11.49"
+        ]
+      ],
+      "stopLoss": "10.85"
+    },
+    {
+      "id": "e1a244bb-a5e4-44a7-8209-57ac25baa091",
+      "coinName": "nearusdt",
+      "orderType": "Long",
+      "leverage": "20x",
+      "entryPriceStart": "1.871",
+      "entryPriceEnd": "1.872",
+      "takeProfits": [
+        [
+          "1",
+          "1.908"
+        ],
+        [
+          "2",
+          "1.927"
+        ],
+        [
+          "3",
+          "1.936"
+        ],
+        [
+          "4",
+          "1.955"
+        ]
+      ],
+      "stopLoss": "1.798"
+    },
+    {
+      "id": "850a0fc9-b13e-4c11-8dd9-3d55f1611015",
+      "coinName": "truusdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": "0.05718",
+      "entryPriceEnd": "0.05665",
+      "takeProfits": [
+        [
+          "1",
+          "0.05552"
+        ],
+        [
+          "2",
+          "0.05495"
+        ],
+        [
+          "3",
+          "0.05467"
+        ],
+        [
+          "4",
+          "0.05410"
+        ]
+      ],
+      "stopLoss": "0.05781"
+    },
+    {
+      "id": "76f933bb-278b-469f-9686-8a1d192e1f91",
+      "coinName": "avaxusdt",
+      "orderType": "Long",
+      "leverage": "20x",
+      "entryPriceStart": "21.15",
+      "entryPriceEnd": "21.16",
+      "takeProfits": [
+        [
+          "1",
+          "21.57"
+        ],
+        [
+          "2",
+          "21.78"
+        ],
+        [
+          "3",
+          "21.89"
+        ],
+        [
+          "4",
+          "22.10"
+        ]
+      ],
+      "stopLoss": "20.50"
+    },
+    {
+      "id": "4628f89b-78ef-4366-a71c-15dfc306ebc0",
+      "coinName": "dotusdt",
+      "orderType": "Long",
+      "leverage": "20x",
+      "entryPriceStart": "5.277",
+      "entryPriceEnd": "5.279",
+      "takeProfits": [
+        [
+          "1",
+          "5.383"
+        ],
+        [
+          "2",
+          "5.435"
+        ],
+        [
+          "3",
+          "5.462"
+        ],
+        [
+          "4",
+          "5.514"
+        ]
+      ],
+      "stopLoss": "5.206"
+    },
+    {
+      "id": "5707847e-18fc-4eab-b64c-4490277a963e",
+      "coinName": "omgusdt",
+      "orderType": "Long",
+      "leverage": "20x",
+      "entryPriceStart": "0.643",
+      "entryPriceEnd": "0.644",
+      "takeProfits": [
+        [
+          "1",
+          "0.656"
+        ],
+        [
+          "2",
+          "0.662"
+        ],
+        [
+          "3",
+          "0.666"
+        ],
+        [
+          "4",
+          "0.672"
+        ]
+      ],
+      "stopLoss": "0.617"
+    },
+    {
+      "id": "3567ba96-f8da-4945-a33d-fc0fb58ac36b",
+      "coinName": "apeusdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": "1.597",
+      "entryPriceEnd": "1.582",
+      "takeProfits": [
+        [
+          "1",
+          "1.550"
+        ],
+        [
+          "2",
+          "1.535"
+        ],
+        [
+          "3",
+          "1.527"
+        ],
+        [
+          "4",
+          "1.511"
+        ]
+      ],
+      "stopLoss": "1.637"
+    },
+    {
+      "id": "cb5a389c-3458-49a1-b546-fdbbfe533bca",
+      "coinName": "ftmusdt",
+      "orderType": "Long",
+      "leverage": "10x",
+      "entryPriceStart": "0.3172",
+      "entryPriceEnd": "0.3173",
+      "takeProfits": [
+        [
+          "1",
+          "0.3235"
+        ],
+        [
+          "2",
+          "0.3267"
+        ],
+        [
+          "3",
+          "0.3283"
+        ],
+        [
+          "4",
+          "0.3315"
+        ]
+      ],
+      "stopLoss": "0.2942"
+    },
+    {
+      "id": "d3664515-a43e-443d-b1df-5b593f7aaa4b",
+      "coinName": "umausdt",
+      "orderType": "Long",
+      "leverage": "10x",
+      "entryPriceStart": "1.931",
+      "entryPriceEnd": "1.950",
+      "takeProfits": [
+        [
+          "1",
+          "1.970"
+        ],
+        [
+          "2",
+          "1.989"
+        ],
+        [
+          "3",
+          "1.999"
+        ],
+        [
+          "4",
+          "2.018"
+        ]
+      ],
+      "stopLoss": "1.762"
+    },
+    {
+      "id": "dfa7a5c1-91ec-4b85-8058-38de25f6c05a",
+      "coinName": "renusdt",
+      "orderType": "Long",
+      "leverage": "20x",
+      "entryPriceStart": "0.057856",
+      "entryPriceEnd": "0.057885",
+      "takeProfits": [
+        [
+          "1",
+          "0.059013"
+        ],
+        [
+          "2",
+          "0.059592"
+        ],
+        [
+          "3",
+          "0.059881"
+        ],
+        [
+          "4",
+          "0.060460"
+        ]
+      ],
+      "stopLoss": "0.055324"
+    },
+    {
+      "id": "798aed66-85b5-4c30-9a64-d7a7b9c931bf",
+      "coinName": "rsrusdt",
+      "orderType": "Long",
+      "leverage": "10x",
+      "entryPriceStart": "0.002615",
+      "entryPriceEnd": "0.002616",
+      "takeProfits": [
+        [
+          "1",
+          "0.002667"
+        ],
+        [
+          "2",
+          "0.002693"
+        ],
+        [
+          "3",
+          "0.002707"
+        ],
+        [
+          "4",
+          "0.002733"
+        ]
+      ],
+      "stopLoss": "0.002447"
+    },
+    {
+      "id": "b1c99d9f-480e-4a58-bd60-5ab6108278d8",
+      "coinName": "ontusdt",
+      "orderType": "Long",
+      "leverage": "20x",
+      "entryPriceStart": "0.2212",
+      "entryPriceEnd": "0.2213",
+      "takeProfits": [
+        [
+          "1",
+          "0.2256"
+        ],
+        [
+          "2",
+          "0.2278"
+        ],
+        [
+          "3",
+          "0.2289"
+        ],
+        [
+          "4",
+          "0.2312"
+        ]
+      ],
+      "stopLoss": "0.2129"
+    },
+    {
+      "id": "f999a681-85b0-41ad-bbe1-92a8467ba46d",
+      "coinName": "storjusdt",
+      "orderType": "Long",
+      "leverage": "10x",
+      "entryPriceStart": "0.765",
+      "entryPriceEnd": "0.766",
+      "takeProfits": [
+        [
+          "1",
+          "0.780"
+        ],
+        [
+          "2",
+          "0.788"
+        ],
+        [
+          "3",
+          "0.792"
+        ],
+        [
+          "4",
+          "0.799"
+        ]
+      ],
+      "stopLoss": "0.712"
+    },
+    {
+      "id": "e37e3379-0622-4175-ad28-b5f7113b2969",
+      "coinName": "flmusdt",
+      "orderType": "Long",
+      "leverage": "20x",
+      "entryPriceStart": "0.0841",
+      "entryPriceEnd": "0.0842",
+      "takeProfits": [
+        [
+          "1",
+          "0.0858"
+        ],
+        [
+          "2",
+          "0.0866"
+        ],
+        [
+          "3",
+          "0.0870"
+        ],
+        [
+          "4",
+          "0.0879"
+        ]
+      ],
+      "stopLoss": "0.0799"
+    },
+    {
+      "id": "f859e557-1a6d-489a-a734-b0cc40fcad4d",
+      "coinName": "galusdt",
+      "orderType": "Long",
+      "leverage": "10x",
+      "entryPriceStart": "1.510",
+      "entryPriceEnd": "1.511",
+      "takeProfits": [
+        [
+          "1",
+          "1.540"
+        ],
+        [
+          "2",
+          "1.555"
+        ],
+        [
+          "3",
+          "1.563"
+        ],
+        [
+          "4",
+          "1.578"
+        ]
+      ],
+      "stopLoss": "1.322"
+    },
+    {
+      "id": "c8db63b9-1361-433a-bfc2-dc27a6b9afe2",
+      "coinName": "runeusdt",
+      "orderType": "Long",
+      "leverage": "20x",
+      "entryPriceStart": "5.510",
+      "entryPriceEnd": "5.511",
+      "takeProfits": [
+        [
+          "1",
+          "5.620"
+        ],
+        [
+          "2",
+          "5.675"
+        ],
+        [
+          "3",
+          "5.703"
+        ],
+        [
+          "4",
+          "5.758"
+        ]
+      ],
+      "stopLoss": "5.269"
+    },
+    {
+      "id": "69e97480-eeab-47b8-962a-a7b92845d241",
+      "coinName": "darusdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": "0.11900",
+      "entryPriceEnd": "0.11784",
+      "takeProfits": [
+        [
+          "1",
+          "0.11548"
+        ],
+        [
+          "2",
+          "0.11430"
+        ],
+        [
+          "3",
+          "0.11372"
+        ],
+        [
+          "4",
+          "0.11254"
+        ]
+      ],
+      "stopLoss": "0.12202"
+    },
+    {
+      "id": "6228393c-b532-48f5-a20c-f0f6fc41f199",
+      "coinName": "atomusdt",
+      "orderType": "Short",
+      "leverage": "10x",
+      "entryPriceStart": "8.975",
+      "entryPriceEnd": "8.889",
+      "takeProfits": [
+        [
+          "1",
+          "8.711"
+        ],
+        [
+          "2",
+          "8.622"
+        ],
+        [
+          "3",
+          "8.578"
+        ],
+        [
+          "4",
+          "8.489"
+        ]
+      ],
+      "stopLoss": "9.361"
+    },
+    {
+      "id": "5bf54132-5168-4624-bb46-586f4223d99f",
+      "coinName": "sushiusdt",
+      "orderType": "Long",
+      "leverage": "10x",
+      "entryPriceStart": "1.224",
+      "entryPriceEnd": "1.226",
+      "takeProfits": [
+        [
+          "1",
+          "1.248"
+        ],
+        [
+          "2",
+          "1.261"
+        ],
+        [
+          "3",
+          "1.267"
+        ],
+        [
+          "4",
+          "1.279"
+        ]
+      ],
+      "stopLoss": "1.144"
+    },
+    {
+      "id": "19dc3199-57ce-4492-8447-1c23cb52e5f3",
+      "coinName": "storjusdt",
+      "orderType": "Long",
+      "leverage": "10x",
+      "entryPriceStart": "0.7699",
+      "entryPriceEnd": "0.7701",
+      "takeProfits": [
+        [
+          "1",
+          "0.7853"
+        ],
+        [
+          "2",
+          "0.7930"
+        ],
+        [
+          "3",
+          "0.7968"
+        ],
+        [
+          "4",
+          "0.8045"
+        ]
+      ],
+      "stopLoss": "0.7141"
+    },
+    {
+      "id": "33537833-d7bc-42a4-9f56-3c67af99f5b7",
+      "coinName": "ambusdt",
+      "orderType": "Short",
+      "leverage": "10x",
+      "entryPriceStart": "0.00770",
+      "entryPriceEnd": "0.00763",
+      "takeProfits": [
+        [
+          "1",
+          "0.00748"
+        ],
+        [
+          "2",
+          "0.00740"
+        ],
+        [
+          "3",
+          "0.00736"
+        ],
+        [
+          "4",
+          "0.00729"
+        ]
+      ],
+      "stopLoss": "0.00802"
+    },
+    {
+      "id": "19173b17-e5b0-4c95-a573-05d7fa5a1918",
+      "coinName": "rsrusdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": "0.002487",
+      "entryPriceEnd": "0.002464",
+      "takeProfits": [
+        [
+          "1",
+          "0.002415"
+        ],
+        [
+          "2",
+          "0.002390"
+        ],
+        [
+          "3",
+          "0.002378"
+        ],
+        [
+          "4",
+          "0.002353"
+        ]
+      ],
+      "stopLoss": "0.002583"
+    },
+    {
+      "id": "bfe443ee-27ab-4aff-9bd6-30cf325b6415",
+      "coinName": "trxusdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": "0.10475",
+      "entryPriceEnd": "0.10372",
+      "takeProfits": [
+        [
+          "1",
+          "0.10165"
+        ],
+        [
+          "2",
+          "0.10061"
+        ],
+        [
+          "3",
+          "0.10009"
+        ],
+        [
+          "4",
+          "0.09905"
+        ]
+      ],
+      "stopLoss": "0.10632"
+    },
+    {
+      "id": "76c05847-dbbc-4b37-9326-3a61bb8f9a79",
+      "coinName": "vetusdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": "0.02137",
+      "entryPriceEnd": "0.02117",
+      "takeProfits": [
+        [
+          "1",
+          "0.02075"
+        ],
+        [
+          "2",
+          "0.02053"
+        ],
+        [
+          "3",
+          "0.02043"
+        ],
+        [
+          "4",
+          "0.02022"
+        ]
+      ],
+      "stopLoss": "0.02195"
+    },
+    {
+      "id": "96d712bd-43d7-4312-9ffc-5837eaf1ff1f",
+      "coinName": "renusdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": "0.055647",
+      "entryPriceEnd": "0.055125",
+      "takeProfits": [
+        [
+          "1",
+          "0.054023"
+        ],
+        [
+          "2",
+          "0.053471"
+        ],
+        [
+          "3",
+          "0.053196"
+        ],
+        [
+          "4",
+          "0.052644"
+        ]
+      ],
+      "stopLoss": "0.057643"
+    },
+    {
+      "id": "f95612bb-eb03-4f46-b504-18dd0848edeb",
+      "coinName": "gmtusdt",
+      "orderType": "Short",
+      "leverage": "10x",
+      "entryPriceStart": "0.2875",
+      "entryPriceEnd": "0.2848",
+      "takeProfits": [
+        [
+          "1",
+          "0.2791"
+        ],
+        [
+          "2",
+          "0.2763"
+        ],
+        [
+          "3",
+          "0.2748"
+        ],
+        [
+          "4",
+          "0.2720"
+        ]
+      ],
+      "stopLoss": "0.3024"
+    },
+    {
+      "id": "0dc72075-1ba7-401b-bbdb-c148a2215f99",
+      "coinName": "idexusdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": "0.05720",
+      "entryPriceEnd": "0.05665",
+      "takeProfits": [
+        [
+          "1",
+          "0.05552"
+        ],
+        [
+          "2",
+          "0.05495"
+        ],
+        [
+          "3",
+          "0.05467"
+        ],
+        [
+          "4",
+          "0.05410"
+        ]
+      ],
+      "stopLoss": "0.05849"
+    },
+    {
+      "id": "957c49b5-16cb-4913-ab38-956294696f99",
+      "coinName": "ontusdt",
+      "orderType": "Long",
+      "leverage": "10x",
+      "entryPriceStart": "0.2247",
+      "entryPriceEnd": "0.2248",
+      "takeProfits": [
+        [
+          "1",
+          "0.2292"
+        ],
+        [
+          "2",
+          "0.2314"
+        ],
+        [
+          "3",
+          "0.2326"
+        ],
+        [
+          "4",
+          "0.2348"
+        ]
+      ],
+      "stopLoss": "0.2116"
+    },
+    {
+      "id": "bdbaf63d-36a9-4a0e-b97d-c94ad71b4616",
+      "coinName": "aaveusdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": "96.15",
+      "entryPriceEnd": "95.21",
+      "takeProfits": [
+        [
+          "1",
+          "93.31"
+        ],
+        [
+          "2",
+          "92.35"
+        ],
+        [
+          "3",
+          "91.88"
+        ],
+        [
+          "4",
+          "90.93"
+        ]
+      ],
+      "stopLoss": "99.11"
+    },
+    {
+      "id": "96819f1a-169b-424a-8342-58d2484b899a",
+      "coinName": "linkusdt",
+      "orderType": "Short",
+      "leverage": "10x",
+      "entryPriceStart": "14.389",
+      "entryPriceEnd": "14.251",
+      "takeProfits": [
+        [
+          "1",
+          "13.966"
+        ],
+        [
+          "2",
+          "13.823"
+        ],
+        [
+          "3",
+          "13.752"
+        ],
+        [
+          "4",
+          "13.610"
+        ]
+      ],
+      "stopLoss": "15.300"
+    },
+    {
+      "id": "34907128-b473-4738-9320-159fedd41982",
+      "coinName": "zilusdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": "0.02086",
+      "entryPriceEnd": "0.02066",
+      "takeProfits": [
+        [
+          "1",
+          "0.02025"
+        ],
+        [
+          "2",
+          "0.02004"
+        ],
+        [
+          "3",
+          "0.01994"
+        ],
+        [
+          "4",
+          "0.01973"
+        ]
+      ],
+      "stopLoss": "0.02134"
+    },
+    {
+      "id": "a339c2b5-6ac7-44ca-8cef-e90f617b1964",
+      "coinName": "adausdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": "0.3868",
+      "entryPriceEnd": "0.3831",
+      "takeProfits": [
+        [
+          "1",
+          "0.3754"
+        ],
+        [
+          "2",
+          "0.3716"
+        ],
+        [
+          "3",
+          "0.3697"
+        ],
+        [
+          "4",
+          "0.3659"
+        ]
+      ],
+      "stopLoss": "0.3924"
+    },
+    {
+      "id": "803c1c87-bf2e-4c24-9fb6-12e915b574fa",
+      "coinName": "sushiusdt",
+      "orderType": "Short",
+      "leverage": "10x",
+      "entryPriceStart": "1.153",
+      "entryPriceEnd": "1.143",
+      "takeProfits": [
+        [
+          "1",
+          "1.120"
+        ],
+        [
+          "2",
+          "1.109"
+        ],
+        [
+          "3",
+          "1.103"
+        ],
+        [
+          "4",
+          "1.092"
+        ]
+      ],
+      "stopLoss": "1.207"
+    },
+    {
+      "id": "00b3cb00-0193-4b9d-98a1-0393751b1b81",
+      "coinName": "bchusdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": "226.9",
+      "entryPriceEnd": "224.8",
+      "takeProfits": [
+        [
+          "1",
+          "220.3"
+        ],
+        [
+          "2",
+          "218.1"
+        ],
+        [
+          "3",
+          "216.9"
+        ],
+        [
+          "4",
+          "214.7"
+        ]
+      ],
+      "stopLoss": "229.7"
+    },
+    {
+      "id": "98d5b3b3-9278-4b27-9dc6-5d2e9cf8c430",
+      "coinName": "woousdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": "0.2217",
+      "entryPriceEnd": "0.2196",
+      "takeProfits": [
+        [
+          "1",
+          "0.2152"
+        ],
+        [
+          "2",
+          "0.2130"
+        ],
+        [
+          "3",
+          "0.2119"
+        ],
+        [
+          "4",
+          "0.2097"
+        ]
+      ],
+      "stopLoss": "0.2263"
+    },
+    {
+      "id": "8d7d907c-88b2-44f1-a8ee-d82f69c30817",
+      "coinName": "xrpusdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": "0.6157",
+      "entryPriceEnd": "0.6099",
+      "takeProfits": [
+        [
+          "1",
+          "0.5977"
+        ],
+        [
+          "2",
+          "0.5916"
+        ],
+        [
+          "3",
+          "0.5886"
+        ],
+        [
+          "4",
+          "0.5825"
+        ]
+      ],
+      "stopLoss": "0.6232"
+    },
+    {
+      "id": "a3aca32f-4210-4026-97ab-fa2c1e1c6d33",
+      "coinName": "etcusdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": "18.98",
+      "entryPriceEnd": "18.80",
+      "takeProfits": [
+        [
+          "1",
+          "18.42"
+        ],
+        [
+          "2",
+          "18.24"
+        ],
+        [
+          "3",
+          "18.14"
+        ],
+        [
+          "4",
+          "17.95"
+        ]
+      ],
+      "stopLoss": "19.26"
+    },
+    {
+      "id": "37197008-19f0-4408-b0dc-94d7daeffb7f",
+      "coinName": "filusdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": "4.580",
+      "entryPriceEnd": "4.536",
+      "takeProfits": [
+        [
+          "1",
+          "4.445"
+        ],
+        [
+          "2",
+          "4.400"
+        ],
+        [
+          "3",
+          "4.377"
+        ],
+        [
+          "4",
+          "4.332"
+        ]
+      ],
+      "stopLoss": "4.647"
+    },
+    {
+      "id": "d80b05b4-5368-4525-9e41-93cfed3a6845",
+      "coinName": "solusdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": "57.16",
+      "entryPriceEnd": "56.60",
+      "takeProfits": [
+        [
+          "1",
+          "55.47"
+        ],
+        [
+          "2",
+          "54.90"
+        ],
+        [
+          "3",
+          "54.62"
+        ],
+        [
+          "4",
+          "54.05"
+        ]
+      ],
+      "stopLoss": "58.69"
+    },
+    {
+      "id": "da95f3b8-311d-406b-a3a7-f7be0f122627",
+      "coinName": "arbusdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": "1.0476",
+      "entryPriceEnd": "1.0374",
+      "takeProfits": [
+        [
+          "1",
+          "1.0167"
+        ],
+        [
+          "2",
+          "1.0063"
+        ],
+        [
+          "3",
+          "1.0011"
+        ],
+        [
+          "4",
+          "0.9907"
+        ]
+      ],
+      "stopLoss": "1.0555"
+    },
+    {
+      "id": "268333e6-9126-4458-b444-f2a7582dd694",
+      "coinName": "snxusdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": "3.471",
+      "entryPriceEnd": "3.438",
+      "takeProfits": [
+        [
+          "1",
+          "3.369"
+        ],
+        [
+          "2",
+          "3.335"
+        ],
+        [
+          "3",
+          "3.318"
+        ],
+        [
+          "4",
+          "3.283"
+        ]
+      ],
+      "stopLoss": "3.511"
+    },
+    {
+      "id": "a6a5a0fc-e642-4b44-9d65-b50800c6eddd",
+      "coinName": "ldousdt",
+      "orderType": "Long",
+      "leverage": "20x",
+      "entryPriceStart": "2.498",
+      "entryPriceEnd": "2.499",
+      "takeProfits": [
+        [
+          "1",
+          "2.548"
+        ],
+        [
+          "2",
+          "2.573"
+        ],
+        [
+          "3",
+          "2.585"
+        ],
+        [
+          "4",
+          "2.610"
+        ]
+      ],
+      "stopLoss": "2.398"
+    },
+    {
+      "id": "bc6d2e50-fc07-4341-8f63-b2b605a8d579",
+      "coinName": "umausdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": "1.851",
+      "entryPriceEnd": "1.834",
+      "takeProfits": [
+        [
+          "1",
+          "1.797"
+        ],
+        [
+          "2",
+          "1.779"
+        ],
+        [
+          "3",
+          "1.770"
+        ],
+        [
+          "4",
+          "1.751"
+        ]
+      ],
+      "stopLoss": "1.885"
+    },
+    {
+      "id": "d3570f3a-c73f-449c-81aa-9902b1ea4916",
+      "coinName": "avaxusdt",
+      "orderType": "Long",
+      "leverage": "20x",
+      "entryPriceStart": "21.07",
+      "entryPriceEnd": "21.08",
+      "takeProfits": [
+        [
+          "1",
+          "21.49"
+        ],
+        [
+          "2",
+          "21.70"
+        ],
+        [
+          "3",
+          "21.81"
+        ],
+        [
+          "4",
+          "22.02"
+        ]
+      ],
+      "stopLoss": "20.10"
+    },
+    {
+      "id": "33fd0f3a-1725-4845-bf04-4778ec9bc8ed",
+      "coinName": "sxpusdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": "0.3462",
+      "entryPriceEnd": "0.3429",
+      "takeProfits": [
+        [
+          "1",
+          "0.3360"
+        ],
+        [
+          "2",
+          "0.3326"
+        ],
+        [
+          "3",
+          "0.3309"
+        ],
+        [
+          "4",
+          "0.3275"
+        ]
+      ],
+      "stopLoss": "0.3512"
+    },
+    {
+      "id": "c81084b9-9b87-45e4-b88b-f7ea277b26db",
+      "coinName": "avaxusdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": "21.04",
+      "entryPriceEnd": "20.84",
+      "takeProfits": [
+        [
+          "1",
+          "20.42"
+        ],
+        [
+          "2",
+          "20.21"
+        ],
+        [
+          "3",
+          "20.11"
+        ],
+        [
+          "4",
+          "19.90"
+        ]
+      ],
+      "stopLoss": "21.40"
+    },
+    {
+      "id": "ac336776-3345-4f87-9e64-913000d167db",
+      "coinName": "gmxusdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": "51.48",
+      "entryPriceEnd": "50.98",
+      "takeProfits": [
+        [
+          "1",
+          "49.96"
+        ],
+        [
+          "2",
+          "49.45"
+        ],
+        [
+          "3",
+          "49.20"
+        ],
+        [
+          "4",
+          "48.69"
+        ]
+      ],
+      "stopLoss": "52.46"
+    },
+    {
+      "id": "0dc18352-37c9-4db5-a7a8-a07388142170",
+      "coinName": "yfiusdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": null,
+      "entryPriceEnd": null,
+      "takeProfits": [],
+      "stopLoss": null
+    },
+    {
+      "id": "ee520407-9019-411d-be24-6146daeee95e",
+      "coinName": "aptusdt",
+      "orderType": "Short",
+      "leverage": "20x",
+      "entryPriceStart": "7.2905",
+      "entryPriceEnd": "7.2187",
+      "takeProfits": [
+        [
+          "1",
+          "7.0743"
+        ],
+        [
+          "2",
+          "7.0021"
+        ],
+        [
+          "3",
+          "6.9660"
+        ],
+        [
+          "4",
+          "6.8939"
+        ]
+      ],
+      "stopLoss": "7.4108"
+    }
+  ]
+}
