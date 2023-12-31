@@ -143,11 +143,10 @@ export const startListening = async () => {
 
   client.addEventHandler((update) => {
     if (update.message) {
-      console.log("New message:", update.message.message);
       // Forward message to phone numbers
       phoneNumbers.map((number) => {
         return client
-          .sendMessage(number, { message: update.message.message })
+          .sendMessage(number, { message: update.message })
           .then(() => console.log("Message forwarded to", number))
           .catch((err) =>
             console.error("Failed to forward message to ", number, err)
