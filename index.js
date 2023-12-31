@@ -3,7 +3,7 @@ const app = express();
 const port = 3001;
 import cors from "cors";
 import signalsController from "./controllers/SignalsController.js";
-import { startListening } from "./services/SignalsService.js";
+import { startListening } from "./services/signalsService.js";
 
 // Example data
 const data = {

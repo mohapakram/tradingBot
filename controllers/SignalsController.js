@@ -1,5 +1,5 @@
-import signalsService from "../services/SignalsService.js";
-import { db } from "../services/SignalsService.js";
+import signalsService from "../services/signalsService.js";
+import { db } from "../services/signalsService.js";
 
 const pullSignals = async (req, res) => {
   db.read();
