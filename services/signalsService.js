@@ -7,15 +7,14 @@ import { v4 } from "uuid";
 import extractData from "../utils/extractData.js";
 import checkTemplateStart from "../utils/checkTemplate.js";
 import axios from "axios";
+import input from "input";
 
 // Replace these with your own API ID and Hash
 const apiId = 26536993;
 const apiHash = "6538bcccfa71573d43080f9688512dc1";
 
 // This string will be populated with your session data
-let stringSession = new StringSession(
-  "1BAAOMTQ5LjE1NC4xNjcuOTEAUMWJnMt1cNz5sj4Q29iTOoKJiubWxmWTo5oNCn10hXPdyzSyFLDcp65IfJMXlVRWEyAdiK2mh/Evw449RPMklNLv1++qxF88obvQ03YigQhRsyMVs1bzoKwn+1sQAp6B2i8KmpfC3xlw5A/DXqY40sKS6ib9cV/OKf3ZEbMjKnELnNv3pmEhd69nGv3eTrdR1HT+Wpf+CF74mpXn+5ZIqJ8sD6p1l8zt6n6nzFqLKwSClnfiNn5XGH6uJvnB3QsUStOe6sMDGEHFSjt0HLCrgmvvuBlfMgWA3j3x3qik+5xsvKhatiQ00412ukjctjn4YHNHkbo3cSohkW689MW3Egg="
-);
+const stringSession = new StringSession("");
 
 const apiKey = "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";
 
@@ -81,9 +80,18 @@ const pullSignals = async () => {
   const client = new TelegramClient(stringSession, apiId, apiHash, {
     connectionRetries: 5,
   });
+  // Prompt for phone number and authentication
   await client.start({
-    onError: (err) => console.log(err),
+    phoneNumber: async () =>
+      await input.text("Please enter your phone number: "),
+    password: async () => await input.text("Please enter your password: "),
+    phoneCode: async () =>
+      await input.text("Please enter the verification code you received: "),
+    onError: (err) => console.error(err),
   });
+
+  console.log("You are now logged in.");
+  console.log("Your session string:", client.session.save());
   console.log("Connected to telegram!");
   const channelTitle = "🤑UFO Signals F🤑"; // Replace with the target channel title
   const dialogs = await client.getDialogs({});
@@ -128,10 +136,21 @@ export const startListening = async () => {
   const client = new TelegramClient(stringSession, apiId, apiHash, {
     connectionRetries: 5,
   });
+
+  // Prompt for phone number and authentication
   await client.start({
-    onError: (err) => console.log(err),
+    phoneNumber: async () =>
+      await input.text("Please enter your phone number: "),
+    password: async () => await input.text("Please enter your password: "),
+    phoneCode: async () =>
+      await input.text("Please enter the verification code you received: "),
+    onError: (err) => console.error(err),
   });
+
+  console.log("You are now logged in.");
+  console.log("Your session string:", client.session.save());
   console.log("Connected to telegram!");
+
   const channelTitle = "🤑UFO Signals F🤑"; // Replace with the target channel title
   const dialogs = await client.getDialogs({});
   const channel = dialogs.find((dialog) => dialog.title === channelTitle);
