@@ -9,16 +9,12 @@ import checkTemplateStart from "../utils/checkTemplate.js";
 import axios from "axios";
 import input from "input";
 
-// Replace these with your own API ID and Hash
 const apiId = 26536993;
 const apiHash = "6538bcccfa71573d43080f9688512dc1";
 
-// This string will be populated with your session data
-const stringSession = new StringSession(
-  "1BAAOMTQ5LjE1NC4xNjcuOTEAUFHF1/IIoYxs9L4RHuqgC4TJg9/63IofP390LuQL+g3BzRY2UsSA/OC0xiV4nHOtfkZKfuA1sxQH/yeUKgCW0h69dg64QyqjuFm2o7k/757YZVPAEdi1CYw9pAgjFehDsX2cnr9Gajgktp3lrRru7mPzU9dNJeBWHWfxVXqza2eP5ftcb3ptyFCgKUepWTXa0I2SwhU8PcHSMfhk2YtRDgvysgWchfbUbKS94jz3rOgzyTOBvYZw+7a3hKVRI1KShYrYjNokv9lEo/WjwF6Z6hBj2gBUa4iiX/FBoJKuazJp3n4IfPr4LQDHv6hsndJ9IigzlyFI5TTe6LUWGfX7kzY="
-);
+const stringSession = new StringSession(process.env.AUTH_STRING);
 
-const apiKey = "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";
+const apiKey = process.env.OPEN_API_KEY;
 
 const openAIEndpoint = "https://api.openai.com/v1/chat/completions";
 
