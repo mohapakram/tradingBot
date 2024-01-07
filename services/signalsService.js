@@ -14,7 +14,9 @@ const apiId = 26536993;
 const apiHash = "6538bcccfa71573d43080f9688512dc1";
 
 // This string will be populated with your session data
-const stringSession = new StringSession("");
+const stringSession = new StringSession(
+  "1BAAOMTQ5LjE1NC4xNjcuOTEAUFHF1/IIoYxs9L4RHuqgC4TJg9/63IofP390LuQL+g3BzRY2UsSA/OC0xiV4nHOtfkZKfuA1sxQH/yeUKgCW0h69dg64QyqjuFm2o7k/757YZVPAEdi1CYw9pAgjFehDsX2cnr9Gajgktp3lrRru7mPzU9dNJeBWHWfxVXqza2eP5ftcb3ptyFCgKUepWTXa0I2SwhU8PcHSMfhk2YtRDgvysgWchfbUbKS94jz3rOgzyTOBvYZw+7a3hKVRI1KShYrYjNokv9lEo/WjwF6Z6hBj2gBUa4iiX/FBoJKuazJp3n4IfPr4LQDHv6hsndJ9IigzlyFI5TTe6LUWGfX7kzY="
+);
 
 const apiKey = "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";
 
@@ -139,11 +141,11 @@ export const startListening = async () => {
 
   // Prompt for phone number and authentication
   await client.start({
-    phoneNumber: async () =>
-      await input.text("Please enter your phone number: "),
-    password: async () => await input.text("Please enter your password: "),
-    phoneCode: async () =>
-      await input.text("Please enter the verification code you received: "),
+    // phoneNumber: async () =>
+    //   await input.text("Please enter your phone number: "),
+    // password: async () => await input.text("Please enter your password: "),
+    // phoneCode: async () =>
+    //   await input.text("Please enter the verification code you received: "),
     onError: (err) => console.error(err),
   });
 
