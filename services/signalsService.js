@@ -159,7 +159,7 @@ export const startListening = async () => {
   }
 
   client.addEventHandler((update) => {
-    if (update.message && update.message.peerId.channelId === channel.id) {
+    if (update.message && update.message?.peerId?.channelId === channel.id) {
       // Forward message to phone numbers
       phoneNumbers.map((number) => {
         return client
