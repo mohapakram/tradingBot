@@ -8,11 +8,15 @@ import extractData from "../utils/extractData.js";
 import checkTemplateStart from "../utils/checkTemplate.js";
 import axios from "axios";
 import input from "input";
+import dotenv from "dotenv";
+dotenv.config();
 
 const apiId = 26536993;
 const apiHash = "6538bcccfa71573d43080f9688512dc1";
 
-const stringSession = new StringSession(process.env.AUTH_STRING);
+const string = process.env.AUTH_STRING;
+
+const stringSession = new StringSession(string);
 
 const apiKey = process.env.OPEN_API_KEY;
 
@@ -157,6 +161,9 @@ export const startListening = async () => {
   }
 
   client.addEventHandler((update) => {
+    if (!update.message && !update.message?.peerId) return;
+
+    // forward messages only from the trading channel.
     if (update.message && update.message?.peerId?.channelId === channel.id) {
       // Forward message to phone numbers
       phoneNumbers.map((number) => {
