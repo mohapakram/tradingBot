@@ -137,9 +137,7 @@ export const startListening = async () => {
 
   // Prompt for phone number and authentication
   await client.start({
-    // phoneNumber: async () =>
-    //   await input.text("Please enter your phone number: "),
-    // password: async () => await input.text("Please enter your password: "),
+    // phoneNumber: "+201069392983",
     // phoneCode: async () =>
     //   await input.text("Please enter the verification code you received: "),
     onError: (err) => console.error(err),
