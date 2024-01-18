@@ -151,32 +151,42 @@ export const startListening = async () => {
   console.log("Your session string:", client.session.save());
   console.log("Connected to telegram!");
 
-  const channelTitle = "🤑UFO Signals F🤑"; // Replace with the target channel title
-  const dialogs = await client.getDialogs({});
-  const channel = dialogs.find((dialog) => dialog.title === channelTitle);
+  // Array of channel titles to listen to
+  const channelTitles = [
+    "Source 37",
+    "Source 47",
+    "Source 48",
+    "Source 46",
+    "Source 22",
+    "Source 42",
+  ];
 
-  if (!channel) {
-    console.error("Channel not found");
+  const dialogs = await client.getDialogs({});
+  const channels = dialogs.filter((dialog) =>
+    channelTitles.includes(dialog.title)
+  );
+
+  if (channels.length === 0) {
+    console.error("Channels not found");
     return;
   }
 
   client.addEventHandler((update) => {
-    if (!update.message && !update.message?.peerId) return;
+    if (!update.message || !update.message.peerId) return;
 
-    // forward messages only from the trading channel.
-    if (update.message && update.message?.peerId?.channelId === channel.id) {
-      // Forward message to phone numbers
+    const channel = channels.find(
+      (c) => c.id === update.message.peerId.channelId
+    );
+    if (channel) {
       phoneNumbers.map((number) => {
+        const messageWithChannel = `From ${channel.title}: ${update.message.message}`;
         return client
-          .sendMessage(number, { message: update.message })
+          .sendMessage(number, { message: messageWithChannel })
           .then(() => console.log("Message forwarded to", number))
           .catch((err) =>
             console.error("Failed to forward message to ", number, err)
           );
       });
-
-      // db.data.signals.push(extractText(update.message.message));
-      // db.write();
     }
   });
 };
