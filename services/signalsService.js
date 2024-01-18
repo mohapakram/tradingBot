@@ -174,7 +174,8 @@ export const startListening = async () => {
   client.addEventHandler((update) => {
     if (!update.message || !update.message.peerId)
       return console.log("message empty");
-    console.log(update.message.message);
+    console.log("message:", update.message.message);
+    console.log("peerId:", update.message.peerId);
 
     const channel = channels.find(
       (c) => c.id === update.message.peerId.channelId
@@ -188,9 +189,9 @@ export const startListening = async () => {
 
     // if (channel) {
     phoneNumbers.map((number) => {
-      const messageWithChannel = `From ${channel.title}: ${update.message.message}`;
+      // const messageWithChannel = `From ${channel.title}: ${update.message.message}`;
       return client
-        .sendMessage(number, { message: messageWithChannel })
+        .sendMessage(number, { message: update.message })
         .then(() => console.log("Message forwarded to", number))
         .catch((err) =>
           console.error("Failed to forward message to ", number, err)
