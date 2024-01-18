@@ -141,9 +141,9 @@ export const startListening = async () => {
 
   // Prompt for phone number and authentication
   await client.start({
-    // phoneNumber: "+201069392983",
-    // phoneCode: async () =>
-    //   await input.text("Please enter the verification code you received: "),
+    phoneNumber: "+201069392983",
+    phoneCode: async () =>
+      await input.text("Please enter the verification code you received: "),
     onError: (err) => console.error(err),
   });
 
@@ -172,22 +172,31 @@ export const startListening = async () => {
   }
 
   client.addEventHandler((update) => {
-    if (!update.message || !update.message.peerId) return;
+    if (!update.message || !update.message.peerId)
+      return console.log("message empty");
+    console.log(update.message.message);
 
     const channel = channels.find(
       (c) => c.id === update.message.peerId.channelId
     );
-    if (channel) {
-      phoneNumbers.map((number) => {
-        const messageWithChannel = `From ${channel.title}: ${update.message.message}`;
-        return client
-          .sendMessage(number, { message: messageWithChannel })
-          .then(() => console.log("Message forwarded to", number))
-          .catch((err) =>
-            console.error("Failed to forward message to ", number, err)
-          );
-      });
+
+    if (!channel) {
+      console.log("got a message but channel not found!");
+    } else {
+      console.log(channel, "channel");
     }
+
+    // if (channel) {
+    phoneNumbers.map((number) => {
+      const messageWithChannel = `From ${channel.title}: ${update.message.message}`;
+      return client
+        .sendMessage(number, { message: messageWithChannel })
+        .then(() => console.log("Message forwarded to", number))
+        .catch((err) =>
+          console.error("Failed to forward message to ", number, err)
+        );
+    });
+    // }
   });
 };
 
