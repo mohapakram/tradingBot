@@ -187,17 +187,17 @@ export const startListening = async () => {
       console.log(channel, "channel");
     }
 
-    // if (channel) {
-    phoneNumbers.map((number) => {
-      // const messageWithChannel = `From ${channel.title}: ${update.message.message}`;
-      return client
-        .sendMessage(number, { message: update.message })
-        .then(() => console.log("Message forwarded to", number))
-        .catch((err) =>
-          console.error("Failed to forward message to ", number, err)
-        );
-    });
-    // }
+    if (channel) {
+      phoneNumbers.map((number) => {
+        const messageWithChannel = `From ${channel.title}: ${update.message.message}`;
+        return client
+          .sendMessage(number, { message: messageWithChannel })
+          .then(() => console.log("Message forwarded to", number))
+          .catch((err) =>
+            console.error("Failed to forward message to ", number, err)
+          );
+      });
+    }
   });
 };
 
